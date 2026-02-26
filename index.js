@@ -97,7 +97,7 @@ app.get("/api/health-checker", (req, res) => {
   });
 });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 // app.listen(PORT,()=>{
 //     console.log(`Server running at http://localhost:${PORT}`);
 
