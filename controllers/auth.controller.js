@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { connectDB} from "../config/db.js";
+import {connectDB} from "../config/db.js";
 
 const db = await connectDB();
 const usersCollection = db.collection("users");
